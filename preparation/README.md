@@ -1,14 +1,9 @@
-# Product 
 
-## "HolidayJoy Ornament Extravaganza"
-# Product
-
+# Holiday Joy Ornament Extravaganza"
 * Introduction Date: November 15, 2023
 
 
 * Personalized Christmas Ornaments
-
-
 Product Launch:
 ---
 HolidayJoy Creations is introducing a new line of personalized Christmas ornaments, featuring a variety of festive designs and customization options. These ornaments can be adorned with names, photos, or special messages to make them unique and sentimental.
@@ -24,6 +19,12 @@ Registration: To participate in the quiz, customers must register on the Holiday
 
 About us:
 promotional Website: The campaign will feature a dedicated section on the HolidayJoy Creations website. This section will highlight the new personalized ornament collection, provide details about the quiz, and allow customers to register for the game. Additionally, the website will showcase the raffle prizes and display user-generated content featuring their personalized ornaments.
+
+[sitemap](sitemap.jpg)
+---
+[wireframe](wireframe)
+
+
 
 
 
