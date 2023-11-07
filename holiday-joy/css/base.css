@@ -1,0 +1,16 @@
+/*Base*/
+/*bg*/
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    /*background-color: cadetblue;
+    background-color: #199EB8;*/
+    background: linear-gradient(to bottom,#FF6961, #FE828C, #B6D0E2, #3EB489 );
+    margin:0;
+    font-size:1em;
+    line-height: 1.6;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
