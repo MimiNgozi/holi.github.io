@@ -1,0 +1,31 @@
+/*header
+
+header{
+    background-color: #3EB489;
+}*/
+header{     
+    font-size:3em ;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+/*topmenu*/
+
+.topmenu {
+    text-align: center;
+
+}
+.topmenu{
+    flex-flow:row;
+    justify-content: space-around;
+}
+.topmenu a{
+    padding:.7em, 2em;
+    text-decoration: none;
+    margin:0.5em;
+    font-size: 1.1em;
+}
+.topmenu a:hover{
+    color: blue;
+}
+

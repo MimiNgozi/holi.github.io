@@ -1,0 +1,50 @@
+/*Base*/
+/*bg*/
+*{
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+div{
+    display: block;
+}
+/*body*/
+body{
+    background-color: pink;
+    background-image: linear-gradient(to top ,#FF6961, #FE828C, #B6D0E2, #3EB489 );
+    font-family: 'Poppins', sans-serif;
+    font-size:1em;
+    margin: 0;
+}
+/*bgcolour*/
+.container{
+    background-color: cadetblue;
+    background-image: linear-gradient(to bottom ,#FF6961, #FE828C, #B6D0E2, #3EB489 );
+    margin:1em auto;
+    
+}
+
+main{
+    margin: 1em auto;
+    padding: 0 1em 1em 1em;
+    font-size: 1.1em;
+    border: 5px solid #4b502e;
+    border-width: 0 0 0 3px;
+}
+
+a{
+    color: #000;}
+a:hover{
+    color:purple;
+}
+
+.homebtn{
+	padding : 0.5em 2em;
+	background:  #FE828C;
+	outline: none;
+	border: 2px solid #fff;
+	font-weight: bold;
+	cursor: pointer;
+    font-size: 1em;
+}
