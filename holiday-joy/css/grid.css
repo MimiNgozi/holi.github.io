@@ -24,7 +24,14 @@
         grid-template-columns: repeat(2, 1fr);
         gap:2em;
         padding:1em;
-}
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:1em;
+    }
+
+
 }
 @media screen and (min-width:80em){
    
@@ -40,5 +47,10 @@
     footer{
         max-width: 80em;
         margin: 1em auto;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:1em;
     }
 }

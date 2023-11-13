@@ -18,7 +18,7 @@ body{
     margin: 0;
 }
 /*bgcolour*/
-.container{
+.back-color{
     background-color: cadetblue;
     background-image: linear-gradient(to bottom ,#FF6961, #FE828C, #B6D0E2, #3EB489 );
     margin:1em auto;
