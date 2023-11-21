@@ -1,0 +1,33 @@
+#measure{
+    list-style: none;
+}
+#measure li label{
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000;
+
+}
+#measure li label span{
+    transform: rotate(90deg);
+    color: #000;
+    font-size: 30px;
+}
+#measure label + input[type="radio"]{
+    display: none;
+}
+#measure .content{
+    padding: 0, 10px;
+    line-height: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+
+}
+#measure label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
