@@ -1,5 +1,6 @@
 /*Base*/
 /*bg*/
+/*footer*/
 *{
   box-sizing: border-box;
 }
@@ -39,6 +40,26 @@ a{
     color: #000;}
 a:hover{
     color:var(--hover);
+}
+/*footer*/
+footer p{
+    text-align: center;
+} 
+.footernav{
+    list-style-type:none;
+    
+}
+.footernav li a{
+    text-decoration:  none;
+    margin: 5em;
+    font-size: 1.1em;
+}
+/*.footernav ul li{
+	text-decoration: none;
+	color: black;
+}*/
+.footernav a:hover{
+    background-color:var(--colour);
 }
 @media screen and (min-width:20em) {
     header h1{

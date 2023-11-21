@@ -9,23 +9,43 @@ header{
     text-align: center;
     margin-top: 20px;
 }
-/*topmenu*/
+header h1{
+    font-size: 60px;
+}
 
-.topmenu {
-    text-align: center;
+#sideNav{
+	width: 250px ;
+	height: 100vh;
+	position: fixed;
+	right: -250px ;
+	top: 0;
+	background: var(--colour);
+	z-index: 2;
+	transition: .5s;
 
 }
-.topmenu{
-    flex-flow:row;
-    justify-content: space-around;
+nav ul li{
+	list-style: none;
+	margin: 50px 20px;
 }
-.topmenu a{
-    padding:.7em, 2em;
-    text-decoration: none;
-    margin:0.5em;
-    font-size: 1.1em;
+nav ul li a{
+	text-decoration: none;
+	color: black;
 }
-.topmenu a:hover{
-    color: blue;
+#menuBtn{
+	width: 50px;
+	position: fixed;
+	right: 65px;
+	top: 35px;
+	z-index: 2;
 }
+
+
+
+
+
+
+
+
+
 
