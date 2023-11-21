@@ -1,12 +1,16 @@
-/*grid*/
+/*gridhome*/
+/*col-1 = home coloum*/
+/*prod-col = oraments page*/
 
 @media screen and (min-width:20em){
-    .col-1{
+    .col-1, .prod-col{
         display:grid;
         grid-template-columns: 1fr;
         padding:1em;
     
     }
+    
+    
 }
 @media screen and (min-width:37.5em){
 

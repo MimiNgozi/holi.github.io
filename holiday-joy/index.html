@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/topmenu.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>Holiday-day</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
         
             <a href="">Home</a>
             <a href="">Quiz</a>
-            <a href="">Ornaments</a>
+            <a href="prod.html">Ornaments</a>
             <a href="">About us</a>
     </nav>
     <div class="back-color">
@@ -32,14 +33,14 @@
             </article>
             <section>
                 <figure>
-                    <img src="image/bgreen.png">
+                    <img src="image/bg2.png">
                 </figure>
             </section>
         
         
         <section>
             <figure>
-                <img src="image/bgpine.png">
+                <img src="image/bgp2.png">
             </figure>
         </section> 
             <article>
@@ -47,8 +48,8 @@
                     <p>HolidayJoy Creations is introducing a new line of personalized Christmas ornaments, featuring a variety of festive designs and customization options. These ornaments can be adorned with names, photos, or special messages to make them unique and sentimental.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ut necessitatibus temporibus ullam at aliquam reprehenderit culpa incidunt, adipisci accusantium numquam aliquid saepe, modi pariatur vero! Rem, fuga ea!</p>
                 
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=4s&ab_channel=RickAstley">
-                <button class="homebtn">sign up</button>
+              <a href="sign.html">
+                <button class="homebtn">Make your design </button>
               </a>
             </acticle>
     </main>
@@ -82,10 +83,19 @@
         </nav>
         </footer> 
         <p class="copy">2023 &copy;Ngozi Miracle &hearts;</p> 
-
+        <label class="chat"><a href="#popup">?</a></label>
     <section class="chatbox">
-        <a href="#popup">?</a>
-
+       <form action="#top" method="get">
+        <div class="closebtn"onclick="togglePopup()">x</div>
+        <h4>Invite a friend</h4>
+        <label>Name:</label>
+        <input type="text" placeholder="Name" required>
+        <br><label>Email:</label>
+        <input type="email" placeholder="Email" required>
+        <br><label>Message:</label>
+        <textarea rows="5" name="Message" placeholder="Message" required></textarea>
+        <p><input type="submit" value ="Send"></p>
+       </form> 
     </section>
 </body>
 </html>
