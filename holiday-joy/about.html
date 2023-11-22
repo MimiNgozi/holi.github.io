@@ -10,20 +10,23 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/topmenu.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/about.css">
     <title>Holiday-day</title>
 </head>
 <body>
     <header> 
-        <h1></h1>
+        <h1>About Us </h1>
 
     </header>
-    <nav class="topmenu" id="sideNav">
-        
-            <a href="index.html">Home</a>
-            <a href="">Quiz</a>
-            <a href="prod.html">Ornaments</a>
-            <a href="about.html">About us</a>
-    </nav>
+    <nav id="sideNav">
+      <ul class="topmenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Quiz</a></li>
+          <li><a href="prod.html">Ornament</a></li>
+        <li><a href="about.html">About us</a></li>   
+      </ul>
+  </nav>
+  <img src="image/circle.png" id="menuBtn">
     <div class="back-color">
     <main class="container col-1"> 
     <ul id="measure">
@@ -140,5 +143,24 @@
     <p><input type="submit" value ="Send"></p>
    </form> 
 </section>
+<script>
+  var menuBtn = document.getElementById("menuBtn");
+  var sideNav = document.getElementById("sideNav");
+
+ sideNav.style.right = "-250px"; 
+ menuBtn.onclick = function(){
+     if(sideNav.style.right == "-250px"){
+           sideNav.style.right = "0";
+
+     } 
+     else{
+           sideNav.style.right = "-250px";
+     }
+ }
+
+
+var scroll = new SmoothScroll('a[href*="#"]'); 
+
+</script>
 </body>
 </html>

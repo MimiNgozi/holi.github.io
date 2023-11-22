@@ -27,10 +27,7 @@
     color: #000;
     cursor: pointer;
   }
-#closeBtn:checked ~ .chatbox{
-    opacity: 0;
-    visibility: hidden;
-}
+
 #popup:checked ~ .chatbox{
     bottom:1em;  
     transition: all .3 ease;
@@ -113,6 +110,7 @@
     color: #000;
 
 }
+
 .btn a:hover{
     color: blue;
 }
@@ -151,38 +149,7 @@ tr:nth-child(odd){
     display: block ;
 }*/
 /*trial*/
-#measure{
-    list-style: none;
-}
-#measure li label{
-    padding:10px;
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    cursor: pointer;
-    font-size: 2em;
-    font-weight: 500;
-    color: red;
 
-}
-#measure li label span{
-    transform: rotate(90deg);
-    font-size: 40px;
-}
-#measure label + input[type="radio"]{
-    display: none;
-}
-#measure .content{
-    padding: 0, 10px;
-    line-height: 10px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-
-}
-#measure label + input[type="radio"]:checked + .content{
-    max-height: 400px;
-}
 
 
 /* responsive*/

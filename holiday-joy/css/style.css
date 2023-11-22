@@ -15,15 +15,16 @@ html{
 }
 /*body*/
 body{
-    background-image: linear-gradient(to top ,#FF6961, #FE828C, #B6D0E2, #3EB489 );
+    background-image: linear-gradient(to top ,#FF6961, #FE828C, #3EB489, #00873E);
     font-family: 'Poppins', sans-serif;
     font-size:var(--font-size);
     margin: 0;
     background-repeat: no-repeat;
 }
+/*#3EB489*/
 /*bgcolour*/
 .back-color{
-    background-image: linear-gradient(to bottom ,#FF6961, #FE828C, #B6D0E2, #3EB489 );
+    background-image: linear-gradient(to bottom ,#FF6961, #FE828C, #3EB489,#00873E );
    /* margin:1em auto;*/
     
 }
@@ -62,9 +63,6 @@ footer p{
     background-color:var(--colour);
 }
 @media screen and (min-width:20em) {
-    header h1{
-        font-size: 30px;
-    }
 }
 figure img{
     width: 90%;

@@ -1,5 +1,3 @@
-<!--Oranment html-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,127 +9,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/topmenu.css">
-    <link rel="stylesheet" href="css/form.css">
-    <title>Ornaments</title>
+    <!--<link rel="stylesheet" href="css/form.css">-->
+    <title>Holiday-day</title>
 </head>
 <body>
-    <header>
-        <h1>Ornaments</h1>
+    <header> 
+        <h1>Holiday Joy Ornament Extravaganza</h1>
+
     </header>
     <nav id="sideNav">
         <ul class="topmenu">
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Quiz</a></li>
             <li><a href="prod.html">Ornament</a></li>
-          <li><a href="about.html">About us</a></li>   
+          <li><a href="about.html">About us</a></li>  
+          <li><a href="order.html">Order</a></li> 
         </ul>
     </nav>
     <img src="image/circle.png" id="menuBtn">
-    
-<div class="back-color">
+    <div class="back-color">
     <main class="container col-1"> 
-    <section class="prod-col">
-    <figure>
-        <img src="image/angel2.png">
-    </figure>
-        <table>
-            <tr>
-                <th>Measurement</th>
-                <th>tree</th>
-            </tr>
-            <tr>
-            <td>width</td>
-            <td>3,2 inches</td>
-            </tr>
-            <tr>
-                <td>Height</td>
-                <td>4,2 inches</td>
-            </tr>
-            <tr>
-                <td>Thickness</td>
-                <td>10 inches</td>
-            </tr>
-        </table>
-    <a href="sign.html">
-        <button class="signbtn">Order</button>
-      </a>
-    </section>
-    <section>
-        <figure class="horse">
-            <img src="image/redbow.png">
-        </figure>
-                <table>
-                    <tr>
-                        <th>Measurement</th>
-                        <th>tree</th>
-                    </tr>
-                    <tr>
-                    <td>width</td>
-                    <td>3,2 inches</td>
-                    </tr>
-                    <tr>
-                        <td>Height</td>
-                        <td>4,2 inches</td>
-                    </tr>
-                    <tr>
-                        <td>Thickness</td>
-                        <td>10 inches</td>
-                    </tr>
-                </table>
-        <a href="sign.html">
-            <button class="signbtn">Order</button>
-          </a>
-        
-    </section> 
-    <section>
-        <figure>
-            <img src="image/rhorse.png">
-        </figure>
-            <table>
-                <tr>
-                    <th>Measurement</th>
-                    <th>tree</th>
-                </tr>
-                <tr>
-                <td>width</td>
-                <td>3,2 inches</td>
-                </tr>
-                <tr>
-                    <td>Height</td>
-                    <td>4,2 inches</td>
-                </tr>
-                <tr>
-                    <td>Thickness</td>
-                    <td>10 inches</td>
-                </tr>
-            </table>
-        <a href="sign.html">
-            <button class="signbtn">Order</button>
-          </a>
-    </section>
-   
-
-</main>
-</div>
-<footer 
+    <div class="signup">
+        <h1>Order</h1>
+        <form>
+          <input type="text" class ="input-box" placeholder="Full-Name" required>
+           <input type="email" class ="input-box" placeholder="Your Email" required>
+           <input type="password" class ="input-box" placeholder="Your Password" required>
+           <input type=""
+             
+       </form> 
+</body>
+</html> 
+    </main>
+    </div>
+        <footer 
         class="footer">
-            <nav>  
+             
             <ul class ="footernav">
                 <li><a href= "https://www.facebook.com/michaeljackson/">Facebook</a></li>
                 <li><a href ="https://www.instagram.com/michaeljackson/?hl=en">Instagram</a></li>
                 <li><a href ="https://twitter.com/michaeljackson?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
                 <li><a href="https://www.youtube.com/user/michaeljackson">YouTube</a></li>
             </ul>
-        </nav>
-        <nav>   
+       
             <ul class="footernav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="jackson.html">Quiz</a></li>
                 <li><a href="pop.html">Ornaments </a></li>
                 <li><a href ="song.html">About us</a></li>
             </ul>
-        </nav>
-        <nav>
+        
             <ul class="footernav">
                 <li><a href="https://en.wikipedia.org/wiki/Michael_Jackson">Wikipedia</a></li>
                 <li><a href="https://www.britannica.com/biography/Michael-Jackson">Britanica</a></li>
@@ -139,12 +66,15 @@
                 <li><a href="https://www.imdb.com/name/nm0001391/">IMBd</a></li>
                 
             </ul>
-        </nav>
+        
         </footer> 
         <p class="copy">2023 &copy;Ngozi Miracle &hearts;</p> 
+
         <label class="chat"><a href="#popup">?</a></label>
     <section class="chatbox">
        <form action="#top" method="get">
+        <label for="chat" id="closeBtn">&times;</label>
+        <h4>Invite a friend</h4>
         <label>Name:</label>
         <input type="text" placeholder="Name" required>
         <br><label>Email:</label>
@@ -154,7 +84,7 @@
         <p><input type="submit" value ="Send"></p>
        </form> 
     </section>
-     <script>
+    <script>
         var menuBtn = document.getElementById("menuBtn");
         var sideNav = document.getElementById("sideNav");
  
