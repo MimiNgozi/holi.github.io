@@ -63,7 +63,7 @@ footer p{
     background-color:var(--colour);
 }
 @media screen and (min-width:20em) {
-}
+
 figure img{
     width: 90%;
     height:auto;
@@ -72,11 +72,5 @@ figure img{
     width: 90%;
     height:auto;
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
-img {
-    max-width: 100%;
-    height: auto;
+
 }

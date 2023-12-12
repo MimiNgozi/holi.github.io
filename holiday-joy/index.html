@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/topmenu.css">
+    <link rel="stylesheet" href="css/pop.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/slide.css">
     <title>Holiday-day</title>
 </head>
 <body>
@@ -34,18 +36,65 @@
                 <p>HolidayJoy Creations is introducing a new line of personalized Christmas ornaments, featuring a variety of festive designs and customization options. These ornaments can be adorned with names, photos, or special messages to make them unique and sentimental.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ut necessitatibus temporibus ullam at aliquam reprehenderit culpa incidunt, adipisci accusantium numquam aliquid saepe, modi pariatur vero! Rem, fuga ea!</p>
             </article>
-            <section>
-                <figure>
-                    <img src="image/bg2.png">
-                </figure>
-            </section>
+                
+<div class="slider">
+    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+    <div class="slider__inner">
+      <div class="slider__contents">
+        <figure>
+            <img src="image/bg2.png">
+        </figure>
+      </div>
+      <div class="slider__contents">
+        <figure>
+            <img src="image/white.jpg">
+        </figure>
+      </div>
+      <div class="slider__contents">
+        <figure>
+            <img src="image/blank.jpeg">
+        </figure>
+      </div>
+      <div class="slider__contents">
+        <figure>
+            <img src="image/colours.png">
+        </figure>
+      </div>
+    </div>
+  </div>
         
         
-        <section>
-            <figure>
-                <img src="image/bgp2.png">
-            </figure>
-        </section> 
+        <div class="slider">
+    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+    <div class="slider__inner">
+      <div class="slider__contents">
+        <figure>
+            <img src="image/bgp2.png">
+        </figure>
+      </div>
+      <div class="slider__contents">
+        <figure>
+            <img src="image/white.jpg">
+        </figure>
+      </div>
+      <div class="slider__contents">
+        <figure>
+            <img src="image/blanktr.png">
+        </figure>
+      </div>
+      <div class="slider__contents">
+        <figure>
+            <img src="image/tre.png">
+        </figure>
+      </div>
+    </div>
+  </div>
             <article>
                     <h1>Join us</h1>
                     <p>HolidayJoy Creations is introducing a new line of personalized Christmas ornaments, featuring a variety of festive designs and customization options. These ornaments can be adorned with names, photos, or special messages to make them unique and sentimental.</p>
@@ -87,7 +136,8 @@
 
         <label class="chat"><a href="#popup">?</a></label>
     <section class="chatbox">
-       <form action="#top" method="get">
+        <label class="chat"><a href="#popup">?</a></label>
+       <form action="#top" method="get"><!--dialog-->
         <label for="chat" id="closeBtn">&times;</label>
         <h4>Invite a friend</h4>
         <label>Name:</label>
@@ -96,7 +146,7 @@
         <input type="email" placeholder="Email" required>
         <br><label>Message:</label>
         <textarea rows="5" name="Message" placeholder="Message" required></textarea>
-        <p><input type="submit" value ="Send"></p>
+        <p><input type="submit" value ="Send"> </p>
        </form> 
     </section>
     <script>
@@ -120,3 +170,19 @@
    </script>
 </body>
 </html>
+<!--        <label class="chat"><a href="#popup">?</a></label>
+    <section class="chatbox">
+        <label class="chat"><a href="#popup">?</a></label>
+       <form action="#top" method="get">
+        <label for="chat" id="closeBtn">&times;</label>
+        <h4>Invite a friend</h4>
+        <label>Name:</label>
+        <input type="text" placeholder="Name" required>
+        <br><label>Email:</label>
+        <input type="email" placeholder="Email" required>
+        <br><label>Message:</label>
+        <textarea rows="5" name="Message" placeholder="Message" required></textarea>
+        <p><input type="submit" value ="Send"> </p>
+       </form> 
+    </section>-->
+
