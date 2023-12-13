@@ -10,34 +10,45 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/topmenu.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/order.css">
     <title>Holiday-day</title>
 </head>
 <body>
     <header> 
         <h1>Holiday Joy Ornament Extravaganza
-            im too 
         </h1>
 
     </header>
     <nav id="sideNav">
         <ul class="topmenu">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Quiz</a></li>
             <li><a href="prod.html">Ornament</a></li>
           <li><a href="about.html">About us</a></li>  
           <li><a href="order.html">Order</a></li> 
+          <li><a href="sign.html">Sign in </a></li> 
+          <li><a href="tryout.html">Thank you</a></li> 
         </ul>
     </nav>
     <img src="image/circle.png" id="menuBtn">
     <div class="back-color">
     <main class="container col-1"> 
     <div class="signup">
-        <h1>Order</h1>
+        <h1>check out</h1>
         <form>
-          <input type="text" class ="input-box" placeholder="Full-Name" required>
+          <input type="text" class ="input-box" placeholder="Full-Name" required>  
            <input type="email" class ="input-box" placeholder="Your Email" required>
-           <input type="password" class ="input-box" placeholder="Your Password" required>     
+           <input type="tel" class="input-box" placeholder="Phone number" required>  
+           <input type="number" class="input-box" placeholder="card number" required>  
+           <input type="number" class="input-box" placeholder="valid until" required>  
+           <input type="number" class="input-box" placeholder="CVC" required>  
+           <button class="order-btn btn">
+            <a href="thanks.html">comfirm Order</a>
+          </button>
        </form> 
+    </div>
+      <figure>
+        <img src="image/santa.jpeg">
+    </figure>
 </body>
 </html> 
     </main>
@@ -68,21 +79,7 @@
             </ul>
         
         </footer> 
-        <p class="copy">2023 &copy;Ngozi Miracle &hearts;</p> 
-
-        <label class="chat"><a href="#popup">?</a></label>
-    <section class="chatbox">
-       <form action="#top" method="get">
-        <label for="chat" id="closeBtn">&times;</label>
-        <h4>Invite a friend</h4>
-        <label>Name:</label>
-        <input type="text" placeholder="Name" required>
-        <br><label>Email:</label>
-        <input type="email" placeholder="Email" required>
-        <br><label>Message:</label>
-        <textarea rows="5" name="Message" placeholder="Message" required></textarea>
-        <p><input type="submit" value ="Send"></p>
-       </form> 
+        <p class="copy">2023 &copy;Ngozi Miracle &hearts;</p>  
     </section>
     <script>
         var menuBtn = document.getElementById("menuBtn");
