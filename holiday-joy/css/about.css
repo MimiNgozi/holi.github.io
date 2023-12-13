@@ -31,14 +31,11 @@
 #measure label + input[type="radio"]:checked + .content{
     max-height: 400px;
 }
-/*@media screen and(min-width:20em){
-    #measure li label span{
-        font-size: 40px;
-    }
-    #measure li label span{
-        font-size:5em;
+@media screen and(min-width:20em){
+    #measure label + input[type="radio"]:checked + .content{
+        max-height: 100%;
     }
 
     
 
-}*/
+}

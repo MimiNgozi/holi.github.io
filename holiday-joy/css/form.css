@@ -38,7 +38,7 @@
 .signup{
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
     background: #fff;
-    width: 300px;
+    width: 400px;
     padding: 20px;
     margin: 8% auto 0;
     text-align: center;
@@ -78,7 +78,15 @@
     margin: -19px auto 10px;
 
 }
-/*order-btn*/
+/*order-form*/
+.order{
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
 .order-btn a:hover{
     color: #FF6961;
      
@@ -103,14 +111,7 @@ table, th, td{
 tr:nth-child(odd){
     background-color: #999 ;
 }
-/*dropdown-prod*/
-/*.tab input, .tab, .content{
-    display: none;
-}
-.tab input:checked ~ .content{
-    display: block ;
-}*/
-/*trial*/
+
 
 
 
@@ -122,6 +123,16 @@ tr:nth-child(odd){
         height: 250px;
         margin: 70px;
     
+    }
+    .signup{
+    
+    width: 300px;
+    }
+}
+@media screen and (min-width:40em) {
+    .signup{
+    
+    width: 400px;
     }
 }
 
